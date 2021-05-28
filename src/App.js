@@ -21,6 +21,11 @@ function App() {
       <body>
         <p>info@cognigocustoms.com</p>
       </body>
+      <footer>
+        <p>
+        The entirety of this site is protected by copyright © 2000–2021 Cognigo Customs, Inc.
+        </p>
+      </footer>
     </div>
   );
 }
