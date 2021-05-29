@@ -2,23 +2,38 @@
   text-align: center;
 }
 
+.Left{
+  align-self: flex-start;
+}
+
+.Right{
+  
+  align-self:flex-end;
+}
+
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 60vmin;
+  pointer-events: none;  
+  align-self: flex-start;
+  padding-left: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s alternate-reverse;
   }
+}
+
+.App-body{
+  min-height: 75vh;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
