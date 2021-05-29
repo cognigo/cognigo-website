@@ -11,7 +11,7 @@ const Home = () => {
       }}
     >
       <h1>Welcome to Cognigo Customs</h1>
-      <img src={logo} className="App-logo" alt="logo" />
+      {/* <img src={logo} className="App-logo" alt="logo" /> */}
     </div>
   );
 };
