@@ -18,7 +18,7 @@
 .App-logo {
   height: 10vmin;
   pointer-events: none;
-  align-self: flex-start;
+  justify-content: flex-end;
 }
 
 @media (prefers-reduced-motion: no-preference) {
