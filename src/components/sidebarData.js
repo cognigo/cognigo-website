@@ -9,7 +9,7 @@ export const SidebarData=[
     {
         title:'Services',
         path:'/services',
-        icon:<AiIcons.AiFillHome/>,
+        icon:<AiIcons.AiFillLayout/>,
         iconClosed:<RiIcons.RiArrowDownSFill/>,
         iconOpened:<RiIcons.RiArrowUpSFill/>,
         subNav:[
