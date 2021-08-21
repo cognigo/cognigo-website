@@ -1,35 +1,27 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import logo from './pic.jpeg';
+import React, { Component } from 'react';
 import './App.css';
-import Sidebar from './components/sidebar';
+import Sidebar from './components/sidebar.jsx'
+import Introduction from './components/introduction'
+import About from './components/about'
+import Service from './components/service'
+import Timeline from './components/timeline'
 
-
-function App() {
-  return (
-     <div className="App">
-       <header >
-        
-        <Router>
-            <Sidebar />
-        </Router>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        
-       </header>
-       <div className="App-body">
-        <div >
-           <img src={logo} className="App-logoStatic" alt="logo" />
-         </div>
-       </div>
-       <footer>
-        
-         <div className="Right">info@cognigocustoms.com</div>
-    
-         <p>
-         The entirety of this site is protected by copyright © 2000–2021 Cognigo Customs, Inc.
-         </p>
-       </footer>
-     </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div id="colorlib-page">
+        <div id="container-wrap">
+         	<Sidebar></Sidebar>
+				<div id="colorlib-main">
+					<Introduction></Introduction>
+          <Service></Service>
+					<About></About>
+					<Timeline></Timeline>
+          	</div>
+      	</div>
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -2,38 +2,15 @@
   text-align: center;
 }
 
-.Left{
-  align-self: flex-start;
-}
-
-.Right{
-  
-  align-self:flex-end;
-}
-
-.App-logoStatic {
-  height: 70vmin;
-}
-
 .App-logo {
-  height: 10vmin;
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
   pointer-events: none;
-  justify-content: flex-end;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 10s alternate-reverse;
-  }
-}
-
-.App-body{
-  min-height: 75vh;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 10vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
