@@ -33,7 +33,7 @@ export default class Sidebar extends Component {
             </nav>
             <div className="colorlib-footer">             
               <p><small>
-                Something coming soon !!
+                The entirety of this site is protected by copyright © 2000–2021 Cognigo Customs, Inc.
               </small></p>
             </div>
           </aside>
